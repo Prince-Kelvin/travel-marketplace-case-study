@@ -1,547 +1,230 @@
 # Travel Marketplace — Expanding Revenue Beyond Flight Bookings
 
-**Business Analysis | Product Discovery | Marketplace Strategy | UAT**
+**Business Analysis | Product Discovery | Marketplace Strategy | Requirements Engineering | UAT**
 
-> A reconstructed business analysis case study demonstrating how I helped shape a multi-product travel marketplace designed to diversify revenue beyond traditional flight bookings.
+## Overview
 
----
+This case study explores how business analysis helped shape the expansion of a travel business beyond its traditional dependence on flight bookings into a broader travel marketplace.
 
-## Executive Summary
+The proposed marketplace brought together internally managed products and external travel providers, enabling customers to discover and purchase multiple travel-related services through a shared platform.
 
-The travel industry is highly competitive, with customers frequently comparing flight prices across travel agencies and airline websites. This created a strategic challenge for a travel business whose traditional model was heavily dependent on flight bookings.
+The case study demonstrates how I approached business discovery, stakeholder alignment, marketplace governance, requirements definition, customer journeys, commercial reporting, and user acceptance testing.
 
-During a product discovery exercise, I helped champion the idea of expanding the existing travel website into a **multi-product marketplace** where travellers could discover and purchase flights, tours, holiday packages, hotels, airport concierge services, car hire, activities and other travel-related products.
-
-The marketplace was designed to support both **internally curated products and external travel providers**, creating a broader product ecosystem while providing additional revenue opportunities for the business and its vendors.
-
-As the Business Analyst involved in the discovery and delivery process, I helped facilitate stakeholder discussions, challenge assumptions, shape business rules, coordinate requirements, support sprint planning and coordinate UAT.
+> **Portfolio note:** This is a reconstructed professional case study. It excludes confidential company information, customer data, credentials, and proprietary implementation details. Recommendations and retrospective analysis are distinguished from confirmed project activities where applicable.
 
 ---
 
-## The Business Problem
+## 1. The Business Challenge
 
-The business was operating in an increasingly competitive travel market where:
+The business relied heavily on flight bookings in a competitive travel market. Customers could compare prices across providers or book directly with airlines, creating pressure to diversify the company's value proposition and revenue opportunities.
 
-* Flight products were highly price-sensitive and easy for travellers to compare.
-* The number of travel agencies competing for customers continued to increase.
-* Some travellers bypassed travel agencies and booked directly through airline websites.
-* Dependence on flight bookings limited opportunities to diversify revenue.
-* The business needed additional ways to attract customers and generate value beyond flight transactions.
+During brainstorming, I championed a discovery discussion around expanding the offering beyond flight bookings.
 
-This raised a broader business question:
+The opportunity was to develop a marketplace that could support products and services such as:
 
-> **How can a travel company create additional revenue opportunities while giving travellers a broader and more convenient way to plan and purchase travel services?**
-
----
-
-## The Marketplace Opportunity
-
-The proposed solution was to transform the existing travel website into a broader marketplace.
-
-Instead of limiting the platform to the company's own products, the marketplace could bring together:
-
-### Internal Products
-
-* Flight bookings
-* Tour packages
-* Holiday packages
-* Hotel offers
-* Airport concierge services
+* Flights
+* Hotels
+* Tours and holiday packages
 * Car hire
+* Airport concierge and protocol services
 * Destination activities
+* Study programmes
 * Other travel-related services
 
-### External Providers
+A key strategic question emerged: should the marketplace feature only internally managed products, or should it also accommodate external travel agencies and service providers?
 
-Travel agencies and other travel service providers could onboard to the marketplace, create products and sell them through the platform.
-
-This created a two-sided opportunity:
-
-**Travellers** gain access to a broader range of travel products.
-
-**Vendors** gain an additional distribution and sales channel.
-
-**The business** creates additional transaction and marketplace revenue opportunities.
+Opening the marketplace to external providers could broaden product selection, while introducing a need for consistent product governance, commercial reporting, and operational accountability.
 
 ---
 
-## My Role as Business Analyst
+## 2. My Role
 
-I was involved in the initiative from the discovery stage through requirements coordination, sprint planning and UAT.
+As the Business Analyst, my contributions included:
 
-My contribution included:
-
-* Championing the initial marketplace discovery discussions.
-* Facilitating stakeholder perspectives and competing ideas.
-* Challenging assumptions from a business analysis perspective.
-* Helping define the marketplace operating model.
-* Translating business objectives into product and process requirements.
-* Defining business rules and exception scenarios.
-* Supporting the design of vendor and internal product workflows.
-* Coordinating requirements and sprint planning activities.
-* Coordinating UAT and validating business scenarios.
-* Identifying opportunities for cross-selling and additional marketplace revenue.
-* Helping establish reporting requirements for executives, administrators and vendors.
-
-A significant part of my role was not simply documenting what stakeholders requested, but asking **why the requirement existed, what business problem it solved, and what its implications were for the wider marketplace ecosystem.**
+* Championing discovery around diversification beyond flight bookings.
+* Facilitating stakeholder discussions and helping explore competing marketplace models.
+* Coordinating requirements gathering and sprint planning.
+* Proposing a dedicated Marketplace Administrator to oversee product review and approval.
+* Supporting a neutral governance model for internal and external products.
+* Defining business processes, rules, and user stories.
+* Considering customer discovery, multi-product checkout, vendor fulfilment, and cancellation scenarios.
+* Coordinating UAT around agreed business requirements and end-to-end workflows.
+* Identifying the need for reporting that distinguished internal revenue from external vendor revenue.
+* Supporting the definition of operational, vendor, and executive reporting needs.
 
 ---
 
-## Key Product Decisions I Influenced
+## 3. The Proposed Marketplace Model
 
-### 1. A Neutral Marketplace Governance Model
+The marketplace connected five core areas:
 
-One of the key decisions I championed was the introduction of a **dedicated Marketplace Administrator**.
+1. **Product supply:** Internal departments and external vendors create and submit products.
+2. **Governance:** A Marketplace Administrator reviews products against marketplace guidelines.
+3. **Customer discovery:** Customers browse categories, search for products, and discover destination-related services.
+4. **Transactions and fulfilment:** Customers purchase through the website; the responsible product owner or vendor handles fulfilment.
+5. **Business intelligence:** Reporting supports product governance, vendor activity, revenue analysis, customer growth, and ROI evaluation.
 
-The objective was to prevent internal products or particular vendors from receiving preferential treatment simply because of who owned them.
+### Core design principle
 
-Approved products would receive equal organic treatment within the marketplace.
+> **Centralise what needs consistency; decentralise what requires product ownership.**
 
-The administrator would review submitted products against approved marketplace guidelines and either:
-
-**Approve → Publish**
-
-or
-
-**Decline → Provide feedback → Vendor/department can make corrections and resubmit**
+Marketplace approval, visibility rules, and core reporting require consistent governance. Product ownership and fulfilment remain with the responsible internal department or external provider.
 
 ---
 
-### 2. Open the Marketplace to External Vendors
+## 4. Business and Product Decisions
 
-An early stakeholder discussion considered whether the marketplace should function primarily as an internal marketing channel.
+### Open marketplace model
 
-I challenged this approach by considering the longer-term marketplace economics.
+The marketplace concept extended beyond internal products to accommodate external providers, broadening potential product supply.
 
-Opening the platform to external vendors could:
+### Neutral product governance
 
-* Increase product supply.
-* Give travellers more choice.
-* Create additional transaction opportunities.
-* Give vendors another sales channel.
-* Generate additional marketplace revenue.
-* Provide funds that could support marketplace marketing and customer acquisition.
+I proposed a dedicated Marketplace Administrator to review submitted products and approve or reject them against defined guidelines.
 
-The longer-term concept was a marketplace flywheel:
+Internal and external products were intended to follow the same core approval process.
 
-**More Vendors → More Products → More Customer Choice → More Transactions → More Vendor Sales → More Vendor Interest**
+### Unified purchase journey
 
-Rather than continuously having to recruit vendors, the objective was to eventually create enough demand that vendors would actively want to participate because the platform generated sales for them.
+Customers could select multiple eligible travel products, add them to a cart, and proceed through the website's checkout and payment process.
 
----
+### Paid product boosting
 
-### 3. Paid Product Visibility
+Vendors could choose to pay for increased product visibility. Boosting affected placement but did not replace the approval requirement.
 
-While approved products would receive equal organic treatment, vendors could voluntarily pay for additional visibility.
+### Vendor-led fulfilment
 
-During product creation, a vendor could choose whether to boost the product.
+After purchase, the relevant vendor or internal product owner received the information needed to fulfil the booking.
 
-A vendor could also return to an already-published product and purchase a boost if the product was not receiving sufficient attention.
+### Commercial reporting
 
-This created a transparent distinction between:
-
-**Organic visibility**
-Equal treatment for approved products.
-
-**Paid visibility**
-Additional exposure purchased by the vendor.
+Management needed visibility into internal product revenue, external vendor revenue, customer growth, vendor growth, and marketplace ROI—not just product views.
 
 ---
 
-### 4. Unified Cart and Checkout
+## 5. Business Process & Customer Journey
 
-The marketplace was designed so travellers would not have to manage separate payment processes for different products or providers.
+The marketplace was considered as an end-to-end business service:
 
-A traveller could select products such as:
+**Discover → Explore → Select → Cart → Payment → Confirmation → Fulfilment → Reporting**
 
-**Flight + Hotel + Tour + Airport Concierge**
-
-and place them in a single cart.
-
-The customer could then proceed through one checkout and complete payment directly through the marketplace.
-
-This was a deliberate customer-experience decision:
-
-> **The traveller should not be burdened with navigating different payment platforms or payment channels for products purchased through the marketplace.**
+This approach helped connect customer-facing functionality with vendor operations and commercial outcomes.
 
 ---
 
-## Marketplace Operating Model
+## 6. Case Study Documentation
 
-The marketplace brought together three major supply sources:
+### Business Context and Strategy
 
-```text
-Internal Products
-       +
-External Vendors
-       +
-Partner Ecosystem
-       ↓
-Travel Marketplace
-       ↓
-Traveller
-       ↓
-Purchase & Payment
-       ↓
-Relevant Vendor
-       ↓
-Fulfilment
-```
+* [Business Context](docs/business-context.md)
+* [Stakeholder Analysis](docs/stakeholder-analysis.md)
+* [Marketplace Model](docs/marketplace-model.md)
 
-The marketplace itself remained owned by the company, with a dedicated Marketplace Administrator responsible for product governance.
+### Requirements and Business Analysis
 
-Internal departments were also treated as marketplace vendors for their respective products.
+* [Requirements](docs/requirements.md)
+* [User Stories](docs/user-stories.md)
+* [Business Rules](docs/business-rules.md)
+* [Requirements Traceability Matrix](artifacts/requirements-traceability-matrix.md)
 
-This allowed different teams to own and fulfil their products without creating a separate process exclusively for internal products.
+### Process Diagrams
 
----
+* [Customer Journey](diagrams/customer-journey.md)
+* [Vendor Journey](diagrams/vendor-journey.md)
+* [Marketplace Ecosystem](diagrams/marketplace-ecosystem.md)
+* [Product Approval Flow](diagrams/product-approval-flow.md)
 
-## Customer Journey
+### Discovery, Testing and Reporting
 
-The intended customer experience followed a simple journey:
-
-**Discover**
-
-↓
-
-Search or browse travel products
-
-↓
-
-**Explore**
-
-Flights | Hotels | Tours | Holiday Packages | Airport Concierge | Car Hire | Activities
-
-↓
-
-**Select**
-
-Add products to cart
-
-↓
-
-**Checkout**
-
-Review selected products
-
-↓
-
-**Payment**
-
-Complete payment through the marketplace
-
-↓
-
-**Confirmation**
-
-Receive confirmation email
-
-↓
-
-**Fulfilment**
-
-Relevant vendor receives the order and traveller information and manages fulfilment.
+* [Marketplace Search & Discovery Matrix](artifacts/marketplace-search-matrix.md)
+* [UAT Test Scenarios & Results](artifacts/uat-test-scenarios.md)
+* [Dashboard Requirements](artifacts/dashboard-requirements.md)
 
 ---
 
-## Vendor & Fulfilment Model
+## 7. UAT & Requirements Traceability
 
-Once a product was purchased, the relevant vendor received notification and had access to the information required to fulfil the service.
+The case study documents a UAT scenario set spanning:
 
-Vendor information included:
-
-* Customer name and contact details
-* Product purchased
-* Quantity
-* Payment status
-* Booking date
-* Number of participants
-* Traveller details
-* Fulfilment status
-
-The vendor was responsible for taking the fulfilment process forward.
-
-The marketplace therefore facilitated:
-
-**Discovery → Transaction → Payment → Handover**
-
-while the relevant vendor remained responsible for service fulfilment.
-
----
-
-## Example Business Rule — Minimum Participation
-
-Some travel products had capacity or minimum-participant requirements.
-
-For example:
-
-**Badagry Tour**
-
-* Minimum participants: 10
-* Booking deadline: 31 October
-
-Each successful purchase reduced the available quantity.
-
-If the deadline was reached without the minimum number of participants being achieved, the vendor could decide whether to proceed.
-
-If the vendor decided not to proceed:
-
-* The affected purchases could be cancelled in accordance with the Terms & Conditions.
-* The traveller would receive a voucher equivalent to the refunded amount.
-* The voucher could be used toward another marketplace product.
-
-This illustrates how business analysis extended beyond the happy path to cover **capacity management, deadlines, cancellation rules and customer recovery scenarios**.
-
----
-
-## Product Discovery & Cross-Selling
-
-The marketplace was also designed to create opportunities for travellers to discover related products based on their journey.
-
-For example, a traveller searching for a flight to a destination could also be presented with relevant:
-
-* Tour packages
-* Hotels
-* Airport concierge services
-* Activities
-* Destination experiences
-
-The objective was to move the customer journey from a single travel transaction toward a broader travel-planning experience.
-
----
-
-## Reporting & Performance Measurement
-
-Different marketplace stakeholders required different levels of visibility.
-
-### Executive Dashboard
-
-Management wanted to understand whether the marketplace was generating sufficient commercial value relative to the investment in the platform.
-
-Key measures included:
-
-* Revenue from internally uploaded products.
-* Revenue generated by external vendors.
-* Customer growth directed to the main BTM Holidays website.
-* Total vendor growth.
-* New vendor registrations.
-* Overall marketplace performance.
-* Return on investment.
-
-### Marketplace Administrator Dashboard
-
-The administrator required operational visibility including:
-
-* Total products uploaded.
-* Pending approvals.
-* Declined products.
-* Total sales.
-* Sales by vendor.
-* Sales by destination.
-* Top destinations.
-* Top vendors.
-* Gross revenue.
-* Vendor statements of account.
-
-### Vendor Dashboard
-
-Vendors could monitor:
-
-* Product views.
-* Purchases.
-* Revenue earned.
-* Amount spent on product promotion.
-
-**Conversion-rate analytics was deliberately deferred to Phase 2.**
-
----
-
-## UAT Scope
-
-I coordinated UAT covering both the core marketplace transaction journey and supporting platform functionality.
-
-Testing included:
-
-### Customer Registration
-
-* Email registration
-* Phone registration
-* Google registration
-* Facebook registration
-
-### Marketplace Discovery
-
-* Product categories
-* Product pagination
-* Product search/discovery
-* Product details
-* Product visibility
-
-### Vendor & Product Management
-
-* Vendor registration
-* Product creation
-* Product image upload
-* Product submission
-* Product approval
-* Product rejection
+* Customer registration and product discovery
+* Vendor onboarding and product submission
+* Product approval, rejection, and visibility
 * Product boosting
-* Product quantity/capacity
+* Cart, checkout, and online payment
+* Quantity and availability management
+* Vendor fulfilment
+* Cancellation and voucher handling
+* Marketplace administration and reporting
 
-### Commerce
+The Requirements Traceability Matrix links business requirements to user stories, business rules, and corresponding UAT scenarios.
 
-* Adding products to cart
-* Multi-product cart
-* Checkout
-* Online payment
-* Payment status
-* Confirmation email
-* Quantity reduction following purchase
-
-### Fulfilment
-
-* Vendor notifications
-* Customer notifications
-* Traveller information
-* Fulfilment status
-* Minimum participant scenarios
-* Cancellation scenarios
-* Voucher handling
-
-### Reporting
-
-* Vendor reporting
-* Marketplace administrator reporting
-* Executive reporting
+**Important:** The documented scenarios demonstrate test design and traceability. Actual execution outcomes should be published only where supported by the original test records. Any reconstructed or illustrative results should be labelled accordingly.
 
 ---
 
-## Challenges & Trade-offs
+## 8. Business Value & Success Measures
 
-### Internal Marketplace vs Open Marketplace
+The marketplace was intended to support business diversification and create additional commercial opportunities.
 
-**Challenge:** Whether the platform should focus exclusively on company-owned products.
+The main measures identified for management included:
 
-**Decision:** Open the marketplace to external providers.
+| Measure                  | Business Purpose                                                        |
+| ------------------------ | ----------------------------------------------------------------------- |
+| Internal product revenue | Understand revenue generated from company-owned products                |
+| External vendor revenue  | Understand the commercial contribution of external providers            |
+| Customer growth          | Assess whether marketplace activity contributes to customer acquisition |
+| Vendor growth            | Monitor marketplace supply-side expansion                               |
+| New vendor registrations | Track provider onboarding                                               |
+| Marketplace sales        | Monitor transaction activity                                            |
+| ROI                      | Evaluate commercial value relative to marketplace investment            |
 
-**Rationale:** Increase supply, customer choice, vendor participation and potential revenue.
-
----
-
-### Equal Product Treatment vs Commercial Promotion
-
-**Challenge:** How to prevent preferential treatment while still creating advertising revenue.
-
-**Decision:** Equal organic placement combined with an explicit paid-boosting feature.
-
-**Rationale:** Preserve marketplace neutrality while creating a transparent monetisation mechanism.
+These are intended measures of business performance, not claims of quantified outcomes. No unverified revenue, conversion, or growth figures are asserted in this case study.
 
 ---
 
-### Central Governance vs Departmental Ownership
+## 9. Key Business Analysis Lessons
 
-**Challenge:** Multiple teams would own different products.
+### Strategy must translate into operating processes
 
-**Decision:** Establish a dedicated Marketplace Administrator while allowing each product-owning team/vendor to retain fulfilment ownership.
+Expanding into a marketplace creates new questions around governance, vendor participation, transactions, fulfilment, and accountability.
 
-**Rationale:** Centralise governance without disrupting operational ownership.
+### Neutral governance supports scale
 
----
+A consistent approval process helps maintain marketplace standards across products from different owners.
 
-### Analytics Scope vs Delivery Priority
+### Customer journeys should connect to business outcomes
 
-**Challenge:** The marketplace could support many performance metrics.
+Search, discovery, checkout, and fulfilment need to work together to support completed purchases and customer satisfaction.
 
-**Decision:** Prioritise core commercial and operational reporting while deferring conversion-rate analytics to Phase 2.
+### Reporting should support decisions
 
-**Rationale:** Deliver the most important business visibility first and expand analytics capabilities incrementally.
+Operational activity metrics are useful, but executive reporting must connect activity to revenue, growth, and return on investment.
 
----
+### UAT must validate the whole business journey
 
-## Key BA Lessons
-
-This project reinforced several principles in my approach to Business Analysis:
-
-### Requirements are not just requests
-
-Stakeholders often propose solutions based on their immediate needs. The BA's responsibility is to understand the underlying business problem and evaluate the wider implications.
-
-### Fairness can be a product requirement
-
-The decision to treat approved products equally was not simply a UI decision. It affected marketplace trust, vendor relationships and the commercial model.
-
-### Business rules matter
-
-Minimum participation, deadlines, quantity reduction, cancellation and voucher handling can significantly affect the customer experience and operational process.
-
-### A marketplace requires both sides to succeed
-
-Customer value alone is not enough. Vendors must also see sufficient commercial value to participate and remain active.
-
-### Scope prioritisation is part of analysis
-
-Not every desirable feature needs to be delivered in the first phase. Deferring conversion analytics allowed the initial release to focus on core marketplace operations and commercial visibility.
+A successful marketplace depends on more than individual features. The customer transaction, vendor fulfilment, and management reporting processes must work together.
 
 ---
 
-## What I Would Improve Next
+## 10. Skills Demonstrated
 
-If extending the product beyond its initial scope, I would consider:
-
-* Conversion-rate analytics.
-* More advanced vendor performance analytics.
-* Automated product-performance alerts.
-* Enhanced recommendation logic.
-* Vendor performance benchmarking.
-* Automated approval validation.
-* More detailed fulfilment SLA monitoring.
-* Customer reviews and ratings.
-* Improved cancellation and voucher automation.
-* More granular marketplace search and discovery analytics.
-
-These are **retrospective improvement opportunities**, not claims about features implemented in the original release.
+* Business discovery and problem definition
+* Stakeholder engagement and facilitation
+* Product and marketplace strategy
+* Business requirements documentation
+* User stories and business rules
+* Process modelling
+* Requirements traceability
+* Customer journey analysis
+* UAT planning and coordination
+* Commercial KPI and dashboard requirements
+* Vendor governance and operational workflow analysis
+* Cross-functional collaboration
 
 ---
 
-## Portfolio Artefacts
+## Conclusion
 
-This repository will contain supporting Business Analysis artefacts demonstrating the analysis and delivery process:
+This case study demonstrates my approach to translating a business diversification opportunity into a structured marketplace concept, supported by defined actors, governance processes, requirements, customer journeys, testing scenarios, and commercial reporting needs.
 
-| Artefact                         | Purpose                                                   |
-| -------------------------------- | --------------------------------------------------------- |
-| Business Context                 | Defines the strategic problem and marketplace opportunity |
-| Stakeholder Analysis             | Identifies marketplace actors and their interests         |
-| Marketplace Model                | Documents the operating and commercial model              |
-| Requirements                     | Defines functional and business requirements              |
-| User Stories                     | Converts requirements into Agile-ready stories            |
-| Business Rules                   | Documents marketplace rules and exception scenarios       |
-| Process Flows                    | Visualises customer, vendor and governance workflows      |
-| Requirements Traceability Matrix | Connects requirements to validation                       |
-| UAT Scenarios                    | Demonstrates business-process validation                  |
-| Dashboard Requirements           | Defines stakeholder-specific performance reporting        |
-
----
-
-## Case Study Navigation
-
-**Coming next:**
-
-1. Business Context & Stakeholder Analysis
-2. Marketplace Operating Model
-3. Requirements & User Stories
-4. Business Rules
-5. Process Flows
-6. Requirements Traceability Matrix
-7. UAT Test Scenarios
-8. Dashboard Requirements
-
----
-
-## Confidentiality & Reconstruction
-
-This is a **reconstructed portfolio case study** based on my experience working on a travel marketplace initiative.
-
-Company-specific information, confidential data, credentials, customer information, proprietary designs and commercially sensitive details have been excluded or generalised.
-
-The purpose of this case study is to demonstrate my **Business Analysis, product discovery, requirements engineering, stakeholder management, process analysis and UAT capabilities** without exposing confidential organisational information.
-
+It reflects a business analysis mindset focused not only on documenting features, but also on understanding **why the business needs a solution, how the solution should operate, and how its value should be evaluated**.
