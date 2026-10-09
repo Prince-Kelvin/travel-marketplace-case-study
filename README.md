@@ -37,20 +37,20 @@ Opening the marketplace to external providers could broaden product selection, w
 
 ---
 
-## 2. My Role
+## 2. My Role and Contribution
 
-As the Business Analyst, my contributions included:
+As the Business Analyst, I championed a discovery session to explore how the business could expand beyond its dependence on flight bookings. I facilitated stakeholder discussions, helped translate business needs into functional requirements, and supported sprint planning and User Acceptance Testing.
 
-* Championing discovery around diversification beyond flight bookings.
-* Facilitating stakeholder discussions and helping explore competing marketplace models.
-* Coordinating requirements gathering and sprint planning.
-* Proposing a dedicated Marketplace Administrator to oversee product review and approval.
-* Supporting a neutral governance model for internal and external products.
-* Defining business processes, rules, and user stories.
-* Considering customer discovery, multi-product checkout, vendor fulfilment, and cancellation scenarios.
-* Coordinating UAT around agreed business requirements and end-to-end workflows.
-* Identifying the need for reporting that distinguished internal revenue from external vendor revenue.
-* Supporting the definition of operational, vendor, and executive reporting needs.
+My contributions included:
+
+* **Business discovery:** Helped identify opportunities to diversify the company's travel offerings and support participation by external providers.
+* **Requirements engineering:** Documented stakeholder needs, user stories, acceptance criteria, business rules, and operational workflows.
+* **Marketplace governance:** Proposed a dedicated Marketplace Administrator to support consistent product reviews and fair treatment of internal and external providers.
+* **Commercial rules:** Helped define optional paid product boosting while keeping standard product approval and visibility rules consistent.
+* **Operational workflows:** Mapped product approval, customer checkout, inventory or capacity updates, booking notifications, fulfilment, and cancellation handling.
+* **Management reporting:** Translated leadership priorities into dashboard requirements covering revenue sources, customer growth, vendor growth, destination performance, and return on investment.
+* **Quality assurance:** Supported UAT to validate marketplace workflows against documented acceptance criteria.
+
 
 ---
 
